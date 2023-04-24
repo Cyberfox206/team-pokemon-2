@@ -8,9 +8,9 @@ function feu(list) {
             PFeu.push(parseInt(list[i].replace('Feu:', '')));
         }
     }
-    for (let j = 0; j < PFeu.length; j++) {
-        if (PFeu[j] > max) {
-            max = PFeu[j];
+    for (let i = 0; i < PFeu.length; i++) {
+        if (PFeu[i] > max) {
+            max = PFeu[i];
         }
     }
     // console.log(PFeu)
@@ -26,9 +26,9 @@ function Eau(list) {
             PEau.push(parseInt(list[i].replace('Eau:', '')));
         }
     }
-    for (let j = 0; j < PEau.length; j++) {
-        if (PEau[j] > max) {
-            max = PEau[j];
+    for (let i = 0; i < PEau.length; i++) {
+        if (PEau[i] > max) {
+            max = PEau[i];
         }
     }
     // console.log(PEau)
@@ -44,9 +44,9 @@ function Herbe(list) {
             PHerbe.push(parseInt(list[i].replace('Herbe:', '')));
         }
     }
-    for (let j = 0; j < PHerbe.length; j++) {
-        if (PHerbe[j] > max) {
-            max = PHerbe[j];
+    for (let i = 0; i < PHerbe.length; i++) {
+        if (PHerbe[i] > max) {
+            max = PHerbe[i];
         }
     }
     // console.log(PHerbe)
