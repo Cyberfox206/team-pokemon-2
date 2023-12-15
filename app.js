@@ -87,3 +87,11 @@ function special(list) {
 
 let max_team_puissance = special(pokemons) + Herbe(pokemons) + Eau(pokemons) + feu(pokemons);
 console.log(max_team_puissance)
+
+document.getElementById('response').innerHTML += `
+<p>le pokemon spécial le plus puissance est a ${special(pokemons)}<p/>
+<p>le pokemon Herbe le plus puissance est a ${Herbe(pokemons)}<p/>
+<p>le pokemon Eau le plus puissance est a ${Eau(pokemons)}<p/>
+<p>le pokemon feu le plus puissance est a ${feu(pokemons)}<p/>
+<p>la puissance total de la team est de ${max_team_puissance}<p/>
+`
